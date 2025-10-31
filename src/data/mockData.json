@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "id": "student-1",
+      "name": "Alice Johnson",
+      "email": "alice@student.edu",
+      "role": "STUDENT"
+    },
+    {
+      "id": "student-2",
+      "name": "Bob Smith",
+      "email": "bob@student.edu",
+      "role": "STUDENT"
+    },
+    {
+      "id": "student-3",
+      "name": "Carol Martinez",
+      "email": "carol@student.edu",
+      "role": "STUDENT"
+    },
+    {
+      "id": "student-4",
+      "name": "David Lee",
+      "email": "david@student.edu",
+      "role": "STUDENT"
+    },
+    {
+      "id": "admin-1",
+      "name": "Prof. Sarah Williams",
+      "email": "williams@university.edu",
+      "role": "ADMIN"
+    },
+    {
+      "id": "admin-2",
+      "name": "Prof. John Davis",
+      "email": "davis@university.edu",
+      "role": "ADMIN"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign-1",
+      "title": "React Fundamentals Assignment",
+      "description": "Build a basic React application demonstrating component lifecycle, hooks, and state management.",
+      "dueDate": "2025-11-15",
+      "driveLink": "https://drive.google.com/file/example1",
+      "createdBy": "admin-1",
+      "assignedTo": ["student-1", "student-2", "student-3", "student-4"],
+      "createdAt": "2025-10-20T10:00:00Z"
+    },
+    {
+      "id": "assign-2",
+      "title": "JavaScript ES6+ Features",
+      "description": "Create examples demonstrating arrow functions, destructuring, spread operator, and async/await.",
+      "dueDate": "2025-11-10",
+      "driveLink": "",
+      "createdBy": "admin-1",
+      "assignedTo": ["student-1", "student-2"],
+      "createdAt": "2025-10-22T14:30:00Z"
+    },
+    {
+      "id": "assign-3",
+      "title": "CSS Grid and Flexbox Layout",
+      "description": "Design a responsive webpage layout using modern CSS Grid and Flexbox techniques.",
+      "dueDate": "2025-11-20",
+      "driveLink": "https://drive.google.com/file/example3",
+      "createdBy": "admin-2",
+      "assignedTo": ["student-3", "student-4"],
+      "createdAt": "2025-10-25T09:00:00Z"
+    },
+    {
+      "id": "assign-4",
+      "title": "REST API Integration Project",
+      "description": "Integrate a public REST API into a React application with proper error handling and loading states.",
+      "dueDate": "2025-11-25",
+      "driveLink": "",
+      "createdBy": "admin-2",
+      "assignedTo": ["student-1", "student-3", "student-4"],
+      "createdAt": "2025-10-28T11:00:00Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-1",
+      "assignmentId": "assign-1",
+      "studentId": "student-1",
+      "status": "SUBMITTED",
+      "submittedAt": "2025-10-30T15:30:00Z"
+    },
+    {
+      "id": "sub-2",
+      "assignmentId": "assign-2",
+      "studentId": "student-2",
+      "status": "PENDING_CONFIRMATION",
+      "submittedAt": null
+    }
+  ]
+}
